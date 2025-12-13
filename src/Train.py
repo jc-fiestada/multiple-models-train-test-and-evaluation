@@ -19,8 +19,6 @@ def RegressionPipelines():
         ('DTCModel', DecisionTreeRegressor())
     ])
 
-    
-
     KNNRegressorModel = Pipeline([
         ('KNNRegScaler', StandardScaler()),
         ('KNNRegModel', KNeighborsRegressor())
